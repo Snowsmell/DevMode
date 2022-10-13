@@ -69,10 +69,10 @@ const Storage = (function(){
 const storage1 = new Storage()
 const storage2 = new Storage()
 
-storage1.setItem('name', '李雷')
-// 李雷
+storage1.setItem('name', '雪气味')
+// 雪气味
 storage1.getItem('name')
-// 也是李雷
+// 也是雪气味
 storage2.getItem('name')
 
 // 返回true
